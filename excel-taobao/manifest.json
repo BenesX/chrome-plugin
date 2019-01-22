@@ -1,0 +1,22 @@
+{
+    "name": "excel-taobao",
+    "version": "1.0.0",
+    "description": "excel-table",
+    "icons": {
+        "16": "download-ico.png",
+        "48": "download-ico.png",
+        "128": "download-ico.png"
+    },
+    "author": "Benes",
+    "automation": true,
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "browser_action": {
+        "default_title": "excel-download",
+        "default_popup": "excel.html"
+    },
+    "manifest_version": 2
+}
